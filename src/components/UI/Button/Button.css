@@ -1,0 +1,33 @@
+.Button {
+    background-color: transparent;
+    border-radius: 50px;
+    padding: 10px 20px;
+    color: white;
+    outline: none;
+    cursor: pointer;
+    font: inherit;
+    margin: 10px;
+    font-weight: bold;
+}
+
+.Success {
+    color: #69b400;
+    border: 1.5px solid #69b400;
+}
+
+.Success:hover {
+    color: white;
+    background-color: #69b400;
+    border: 1.5px solid #69b400;
+}
+
+.Danger {
+    color: #c04300;
+    border: 1.5px solid #c04300;
+}
+
+.Danger:hover {
+    color: white;
+    background-color: #c04300;
+    border: 1.5px solid #c04300;
+}
